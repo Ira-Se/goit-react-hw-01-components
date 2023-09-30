@@ -28,7 +28,7 @@ import { FriendList } from "./friends/friends";
 import friends from './friends/friends.json';
 import { TransactionHistory } from "./transactions/transactions";
 import transactions from "./transactions/transactions.json"
-// console.log(user);
+
 
 // const Friends = [
 //   { friend: 'Nastya', child: true },
