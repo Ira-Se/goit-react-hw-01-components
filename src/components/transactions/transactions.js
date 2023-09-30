@@ -19,12 +19,6 @@ export const TransactionHistory = ({ items }) => {
             </tr>
           );
         })}
-
-        {/* <tr>
-          <td>Withdrawal</td>
-          <td>85</td>
-          <td>USD</td>
-        </tr> */}
       </tbody>
     </table>
   );
