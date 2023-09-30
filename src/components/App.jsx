@@ -52,7 +52,7 @@ import transactions from "./transactions/transactions.json"
   
 // }
 
-// const  = JSON.parse(json)
+
 
 export function App() {
   return <> <Profile  username={user.username}
