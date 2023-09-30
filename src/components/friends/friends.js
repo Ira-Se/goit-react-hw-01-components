@@ -1,16 +1,24 @@
+import { within } from '@testing-library/react';
+import css from './friends.module.css';
+
 const FriendListItem = ({ id, avatar, name, isOnline }) => {
   return (
-    <li className="item" key={id}>
-      <span className="status">{isOnline && 'online'}</span>
-      <img className="avatar" src={avatar} alt="User avatar" width="48" />
-      <p className="name">{name}</p>
+    <li className={css.item} key={id}>
+      <span
+        className={css.status}
+        style={{ backgroundColor: isOnline ? `green` : `red` }}
+      >
+        {isOnline}
+      </span>
+      <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+      <p className={css.name}>{name}</p>
     </li>
   );
 };
 
 export const FriendList = ({ friends }) => {
   return (
-    <ul className="friend-list">
+    <ul className={css.friendList}>
       {friends.map(friend => (
         <FriendListItem
           key={friend.id}

@@ -1,0 +1,29 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 400px;
+
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.statistics {
+  display: flex;
+}
+
+.statList {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 0;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}

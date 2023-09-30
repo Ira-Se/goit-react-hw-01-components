@@ -1,0 +1,50 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+.description {
+  width: 500px;
+  /* padding: 10px; */
+  margin: auto;
+}
+.avatar {
+  width: 350px;
+  margin: 0 auto;
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.name {
+  font-size: 30px;
+  text-shadow: 1px 1px 0 gray, 1px -1px 0 black, -1px 1px 0 gray,
+    -1px -1px 0 black;
+  color: blue;
+  transition: all 1s;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100px;
+  font-weight: 500;
+  border-color: azure;
+  color: green;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}

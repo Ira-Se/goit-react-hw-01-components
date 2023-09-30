@@ -28,10 +28,10 @@ import { FriendList } from "./friends/friends";
 import friends from './friends/friends.json';
 import { TransactionHistory } from "./transactions/transactions";
 import transactions from "./transactions/transactions.json"
-
+import css from './App.module.css'
 
 export function App() {
-  return <> <Profile  username={user.username}
+  return <div className={css.container}> <Profile  username={user.username}
   tag={user.tag}
   location={user.location}
   avatar={user.avatar}
@@ -40,6 +40,6 @@ export function App() {
     <Statistics title='Upload stats' stats={data} />
     <FriendList friends={friends} />
     <TransactionHistory items={transactions}/>
-  </>
+  </div>
 }
 
