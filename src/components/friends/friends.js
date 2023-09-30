@@ -1,4 +1,3 @@
-import { within } from '@testing-library/react';
 import css from './friends.module.css';
 
 const FriendListItem = ({ id, avatar, name, isOnline }) => {
