@@ -1,33 +1,12 @@
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template лдгргшол
-//     </div>
-//   );
-// };
-
-
-
-
-
-
 import { Profile } from "./profile/profile";
-import user from './profile/user.json';
 import { Statistics } from "./statistics/statistics";
-import data from './statistics/data.json';
 import { FriendList } from "./friends/friends";
-import friends from './friends/friends.json';
 import { TransactionHistory } from "./transactions/transactions";
-import transactions from "./transactions/transactions.json"
+
+import user from '../data/user.json';
+import data from '../data/data.json';
+import friends from '../data/friends.json';
+import transactions from '../data/transactions.json'
 import css from './App.module.css'
 
 export function App() {

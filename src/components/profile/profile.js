@@ -33,5 +33,3 @@ export const Profile = ({
     </div>
   );
 };
-
-console.log(Profile);
